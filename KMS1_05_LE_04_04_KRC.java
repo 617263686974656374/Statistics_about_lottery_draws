@@ -35,12 +35,11 @@ public class KMS1_05_LE_04_04_KRC {
                 totalNum++;
             }
         }
-        // this part helped me CHat GPT **
     for (int i = 0; i < keys.length;i++){
         if (keys[i] > overN){
             percent = (double)keys[i] / totalNum * 100;
             System.out.printf("Number %d appeared %d times (%.2f%%)\n", i + 1, keys[i], percent);
-        }// **
+        }
     }
     }
 }
